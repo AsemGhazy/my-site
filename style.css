@@ -1,0 +1,146 @@
+body {
+    width: 1200px;
+    height: 1400px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../imajes/Chrome.jpg);
+    background-size: 1700PX 950PX;
+    background-repeat: no-repeat;
+    background-color:black;
+/*    backdrop-filter:opacity(0.45);
+*/}
+body::before{
+    opacity:0.5;
+}
+
+.header  img{
+    width:71px;
+    height:50px;
+    margin-left:2px;
+    margin:5px  25px  5px  25px;
+}
+
+.header{
+    background-color: black; 
+    top: 20px;     
+    position: fixed;   
+    width: 88%;  
+    height: 65px;
+    border-radius: 25px;
+    margin-left: 90px;
+    margin-right: 90px;
+
+    margin: 0 auto;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.inh li {
+    list-style: none;
+    color: black;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.inh li a {
+    color: white;
+    text-decoration:none;
+    font-size:16px;
+}
+
+.title {
+    color: white;
+    font-size: 20px; 
+    margin-left: 10px;
+    letter-spacing: 4px;
+    word-spacing:5PX
+}
+
+button:hover{
+    background-color:white;
+
+}
+
+button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+    background-color: red;
+    transition: 0.2s;
+}
+
+.logo-box {
+    display: flex;
+    align-items: center;
+}
+
+    .logo-box .title {
+        margin-left: 10px; 
+    }
+
+.div2 {
+    padding:800px 300px  100px 300px;
+    margin:auto;
+}
+
+.photo {
+    border-radius: 20px;
+    position: absolute;
+    z-index: 1;
+    width: 350px;
+    height:350px;
+}
+
+.div3 {
+    color: black;
+    background-color: white;
+    text-align:center;
+    width: 700px;
+    height: 450px;
+    opacity: 0.65;
+    border-radius:25px;
+    position:absolute;
+    top:750px;
+    left:450px;
+}
+
+.div3  h1{
+    padding-top:15px;
+    padding-left:200px;
+}
+
+.div3 h3 {
+    padding-top: 10px;
+    padding-left: 210px;
+    padding-right: 10px;
+    word-spacing: 7PX;
+    font-size:25px;
+}
+
+.black-section {
+    width: 100%;
+    background-color: black;
+    margin-top:350px;
+    padding: 70px 0;
+    margin-left:200px;
+    text-align: center;
+}
+
+.black-section .a1 {
+    color: white;
+    margin: 0 100px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.black-section .a1:hover {
+    color: red; 
+}
